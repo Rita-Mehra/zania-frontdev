@@ -18,7 +18,8 @@ Features:
 3. Supports drag-and-drop reordering of documents
 4. Displays a larger image when a document is clicked
 5. Handles loading state with a loading indicator
-6. Debugging the issues 
+6. Debugging the issues
+7. Responsive the content with media queries
 
 Components:
 1. DocumentGrid: The main component that renders the document grid
