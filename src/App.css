@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.document-card img {
+  min-height: 20rem;
+  width: 20rem;
+  max-width: 20rem;
+  object-fit: cover;
+}
+
+.document-grid {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.document-card {
+  margin: 2rem;
+  width: 28%;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.pop-img-container {
+  position: relative;
+  width: 50%;
+  height: auto;
+}
+
+.pop-img-container img {
+  width: 100%;
+}
+
+.pop-img-container button {
+  background: #1071af;
+  color: #ffffff;
+  height: 40px;
+  min-width: 100px;
+  font-size: 18px;
+  border: none;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+
+.pop-img-container button:hover {
+  background-color: #000000;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+
+.image-overlay {
+  background: #000000ad;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popver-img {
+  width: 500px;
+}
+
+@media screen and (max-width: 1120px) {
+
+  .document-card {
+    margin: 1rem;
+    width: 44%;
+  }
+
+  .document-card img {
+    min-height: 16rem;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .document-card {
+    margin: 1rem;
+    width: 45%;
+  }
+
+  .pop-img-container {
+    width: 70%;
+  }
+
+  .document-card img {
+    min-height: 16rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .document-card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
